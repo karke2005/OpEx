@@ -9,7 +9,43 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
+html{
+scroll-behavior:smooth;
+}
 
+.scroll-down{
+display:block;
+width:30px;
+height:50px;
+border:2px solid #1e88e5;
+border-radius:20px;
+margin:40px auto 0;
+position:relative;
+text-decoration:none;
+}
+
+.scroll-down span{
+position:absolute;
+left:50%;
+top:10px;
+width:6px;
+height:10px;
+background:#1e88e5;
+border-radius:3px;
+transform:translateX(-50%);
+animation:scroll 2s infinite;
+}
+
+@keyframes scroll{
+0%{
+opacity:1;
+top:10px;
+}
+100%{
+opacity:0;
+top:28px;
+}
+}
 *{
 margin:0;
 padding:0;
@@ -276,7 +312,7 @@ Why OpEx?
 
 </section>
 
-<section class="services">
+<section id="services" class="services">
 
 <div class="container">
 
@@ -319,7 +355,9 @@ Our Services
 </div>
 
 </div>
-
+<a href="#services" class="scroll-down">
+<span></span>
+</a>
 </section>
 
 <section class="about">
