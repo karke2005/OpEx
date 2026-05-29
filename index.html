@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpEx - Operational Excellence & Engineering Consulting</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+    color:#1e293b;
+    background:#ffffff;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:0 30px;
+}
+
+/* HERO */
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    gap:50px;
+}
+
+.hero-left{
+    flex:1;
+}
+
+.hero-right{
+    flex:1;
+}
+
+.logo{
+    width:280px;
+    margin-bottom:30px;
+}
+
+.hero h1{
+    font-size:3.2rem;
+    line-height:1.2;
+    color:#083b66;
+    margin-bottom:25px;
+}
+
+.tagline{
+    font-size:1.2rem;
+    color:#4b5563;
+    margin-bottom:25px;
+}
+
+.description{
+    font-size:1.15rem;
+    color:#334155;
+    margin-bottom:35px;
+}
+
+.btn{
+    display:inline-block;
+    background:#1e88e5;
+    color:white;
+    padding:15px 35px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.btn:hover{
+    background:#1565c0;
+}
+
+.hero-image{
+    width:100%;
+    border-radius:12px;
+}
+
+/* SERVICES */
+
+.services{
+    padding:80px 0;
+    background:#f8fafc;
+}
+
+.section-title{
+    text-align:center;
+    color:#083b66;
+    font-size:2.3rem;
+    margin-bottom:50px;
+}
+
+.service-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 4px 15px rgba(0,0,0,.05);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#083b66;
+}
+
+/* ABOUT */
+
+.about{
+    padding:80px 0;
+}
+
+.about p{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    line-height:1.8;
+    font-size:1.1rem;
+}
+
+/* CONTACT */
+
+.contact{
+    padding:80px 0;
+    background:#083b66;
+    color:white;
+    text-align:center;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+.contact p{
+    margin-bottom:10px;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+    padding-top:40px;
+}
+
+.hero h1{
+    font-size:2.2rem;
+}
+
+.logo{
+    width:220px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero container">
+
+<div class="hero-left">
+
+<img src="opex-logo.png" class="logo" alt="OpEx Logo">
+
+<h1>
+Driving Efficiency,<br>
+Delivery Excellence &<br>
+Engineering Performance
+</h1>
+
+<p class="tagline">
+Operational Excellence • Project Management • Engineering Consulting
+</p>
+
+<p class="description">
+Helping organizations improve delivery, efficiency, governance,
+and performance through practical operational excellence methods.
+</p>
+
+<a href="#contact" class="btn">
+Contact Us
+</a>
+
+</div>
+
+<div class="hero-right">
+
+<img src="hero-image.jpg" class="hero-image" alt="Operational Excellence">
+
+</div>
+
+</section>
+
+<section class="services">
+
+<div class="container">
+
+<h2 class="section-title">
+Our Services
+</h2>
+
+<div class="service-grid">
+
+<div class="card">
+<h3>Operational Excellence</h3>
+<p>Improve efficiency and drive sustainable performance.</p>
+</div>
+
+<div class="card">
+<h3>Process Improvement</h3>
+<p>Streamline processes and eliminate waste.</p>
+</div>
+
+<div class="card">
+<h3>Project Management</h3>
+<p>Plan, execute and deliver projects successfully.</p>
+</div>
+
+<div class="card">
+<h3>PMO & Reporting</h3>
+<p>Enable governance through dashboards and insights.</p>
+</div>
+
+<div class="card">
+<h3>Engineering Consulting</h3>
+<p>Technical expertise and engineering support.</p>
+</div>
+
+<div class="card">
+<h3>Training & Coaching</h3>
+<p>Build capability and empower teams.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="about">
+
+<div class="container">
+
+<h2 class="section-title">
+About OpEx
+</h2>
+
+<p>
+OpEx helps organizations improve efficiency, governance,
+project execution, and engineering performance through
+practical operational excellence methodologies.
+
+With over 17 years of experience in automotive engineering,
+brake systems, project management, and process optimization,
+we focus on delivering measurable business results.
+</p>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<div class="container">
+
+<h2>Contact Us</h2>
+
+<p>Email: info@opexconsulting.com</p>
+<p>Chennai, India</p>
+
+</div>
+
+</section>
+
+</body>
+</html>
